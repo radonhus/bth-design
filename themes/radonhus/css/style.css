@@ -9,11 +9,6 @@
     outline: 0;
 }
 
-@font-face {
-    font-family: "neon";
-    src: url("Neon-gR3p.ttf") format("truetype");
-}
-
 .hidden {
     display: none !important;
 }
@@ -264,7 +259,7 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-    color: #2eae9b;
+    color: #000;
     text-decoration: none;
     transition: color 0.2s ease-in;
 }
@@ -281,29 +276,34 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 3rem;
-    font-family: "neon";
+    font-family: "Georgia";
 }
 
 h2 {
     font-size: 1.7rem;
+    font-family: "Georgia";
 }
 
 h3 {
     font-size: 1.4rem;
+    font-family: "Georgia";
 }
 
 h4 {
     font-size: 1.1rem;
+    font-family: "Georgia";
 }
 
 h5 {
     font-size: 1rem;
+    font-family: "Georgia";
 }
 
 h6 {
     font-size: 1rem;
     font-weight: normal;
     font-style: italic;
+    font-family: "Georgia";
 }
 
 img {
