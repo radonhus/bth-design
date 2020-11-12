@@ -1,0 +1,18 @@
+$base-color: #c6538c; // light pink
+@import '../../shared/scss/base';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Nunito:wght@200&display=swap');
+@import '../css/oldstyle';
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    // font-family: 'Bebas Neue', cursive;
+    font-family: 'Abril Fatface', cursive;
+}
