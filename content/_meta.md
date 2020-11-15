@@ -1,6 +1,6 @@
 ---
 Logo: image/me.jpg
-Tagline: Student på BTH hösten 2020
+Tagline: – Student på kursen Design, BTH, hösten 2020
 Social:
     - title: Länk till sidans github-repo
       url: https://github.com/radonhus/bth-design

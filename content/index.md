@@ -1,20 +1,16 @@
 ---
-Title: Hem
+Title: Start
 Description: This is our index page.
 ---
 
-Startsida
+STARTSIDA
 -----------------------------------
 ![Jag](%assets_url%/img/jabuka.jpg)
 
-Jag heter Richard och jag är en värmlänning i exil i Tyskland. Min första,
-mycket blygsamma, kontakt med programmering var med den svenska superdatorn
-ABC80. Som alla andra skaffade jag på 90-talet såklart en egen hemsida på
-Passagen. Har inte pluggat tekniska ämnen sedan början av 2000-talet, men
-hoppas att det ska gå fint på BTH ändå.
+Willkommen! Jag heter Richard och det här är min portfoliosida för kursen
+Teknisk webbdesign och användbarhet, en del av programmet Webbprogrammering
+som jag läser hösten 2020. Jag har rötterna i Värmland men bor numera i
+Tyskland. När jag inte pluggar eller jobbar håller jag på en del med popmusik.
 
-Gillar annars språk och popmusik och är orimligt intresserad av Östeuropa.
-
-Kallar mig "radonhus" på Discord - vi hörs!
-
-/Richard
+Under kursen hoppas jag få utlopp för mitt intresse för färg och form och
+lära mig tekniker för att skapa bra och snygg design.
