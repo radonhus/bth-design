@@ -1,0 +1,26 @@
+.kmom-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.kmom-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3em 0 1em;
+
+    a {
+        font-family: 'Alata', sans-serif;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.6em;
+        font-size: $rem * 1.7;
+    }
+
+    .active-page {
+        color: $highlight-color;
+    }
+}
+
+.kmom-content {
+    padding: 0 $rem * 1;
+}

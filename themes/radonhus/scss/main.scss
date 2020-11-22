@@ -43,7 +43,6 @@ body {
     background-color: $background-color;
 }
 
-
 hr {
     border: 0.15em solid #f5f5f5;
     border-radius: 0.3em;
@@ -52,7 +51,7 @@ hr {
 
 .main {
     flex: 1 0 auto;
-    padding: 5em 0 4em;
+    padding: 2em 0 4em;
 
     /* very ugly overflow fix, avoid this whenever possible! */
     .container {
@@ -84,7 +83,7 @@ hr {
 .logo {
     float: left;
     padding: 3em 3em 2em 0;
-    height: 10.8em;
+    height: 12em;
 
     * {
         display: block;
@@ -96,7 +95,7 @@ hr {
     }
 
     +.title h1 {
-        margin: 0;
+        margin: 0.17em 0 0;
     }
 
     +.title.tagline h1 {
@@ -226,66 +225,6 @@ hr {
     }
 }
 
-/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
-
-@media (max-width: 767px) {
-    .main {
-        padding: 2em 0 1em;
-    }
-
-    .title,
-    .logo {
-        padding: 2em 1.5em 2em 0;
-    }
-
-    .logo {
-        height: 8.8em;
-    }
-
-    .nav {
-        clear: both;
-        padding: 0;
-    }
-
-    .nav ul {
-        padding-bottom: 1em;
-    }
-
-    .nav ul li {
-        display: block;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .nav ul li a {
-        display: block;
-        padding: 0.5em 0;
-    }
-
-    .js .nav-toggle {
-        display: block;
-        float: right;
-        width: 2em;
-        margin: 0.6667em 0;
-        font-size: 1.5rem;
-        line-height: 2em;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    .js .nav-toggle>* {
-        vertical-align: middle;
-    }
-
-    .footer p {
-        padding: 1em 0;
-    }
-
-    .footer .social {
-        padding: 0.5em 0 0.5em 1em;
-    }
-}
-
 /*** UTILITIES ***/
 
 .align-left {
@@ -338,27 +277,6 @@ hr {
 .image.float-right {
     float: right;
     margin: 1em 0 1em 2em;
-}
-
-@media (max-width: 767px) {
-    .image.xsmall {
-        width: 60%;
-    }
-
-    .image.small {
-        width: 80%;
-    }
-
-    .image.large,
-    .image.xlarge {
-        width: 100%;
-    }
-
-    .image.float-left,
-    .image.float-right {
-        float: none;
-        margin: 0 auto;
-    }
 }
 
 /*** TABLES ***/

@@ -1,9 +1,12 @@
 ---
 Title: Redovisning - Kmom01
 Description: Min redovisningstext för kursmoment 01
+Template: kmom
+KmomId: kmom01
+MenuTitle: Kmom01
 ---
 
-KMOM01
+Kursmoment 01
 -----------
 ####Har du jobbat med ramverk eller andra CMS:er tidigare?
 På mitt nuvarande jobb jobbar jag i ett enkelt CMS där jag översätter texter

@@ -3,7 +3,7 @@ Title: Om
 Description: Om sidan
 ---
 
-TEKNIKER BAKOM SIDAN
+Tekniker bakom sidan
 -----------
 CSS-filen som styr sidans style genereras av preprocessorn Sass utifrån ett
 antal moduler skrivna i CSS och SCSS. CSS-filen är en minifierad version som

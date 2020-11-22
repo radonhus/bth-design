@@ -1,0 +1,84 @@
+.landingpage {
+    display: grid;
+    justify-content: center;
+    gap: $rem * 2;
+    padding: 0 $rem * 1;
+}
+
+.report-h2 {
+    grid-column: span 3;
+    margin: 0;
+    text-align: left;
+}
+
+.kmom-box {
+    width: $rem * 20.5;
+    height: $rem * 20.5;
+    background-size: cover;
+    box-shadow: 2px 2px 2px #999;
+}
+
+.kmom01 {
+    background-image: url('../../../assets/img/tile_cosmos.jpg');
+}
+
+.kmom02 {
+    background-image: url('../../../assets/img/tile_chisinau.jpg');
+}
+
+.kmom03 {
+    background-image: url('../../../assets/img/tile_post.jpg');
+}
+
+.kmom04 {
+    background-image: url('../../../assets/img/tile_tbilisi.jpg');
+}
+
+.kmom05 {
+    background-image: url('../../../assets/img/tile_zagreb.jpg');
+}
+
+.kmom06 {
+    background-image: url('../../../assets/img/tile_skopje.jpg');
+}
+
+.project {
+    grid-column: span 3;
+    width: auto;
+    background-image: url('../../../assets/img/tile_project_tiraspol.jpg');
+    margin: 0 0 2px;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kmom-box-title-wrap {
+    padding: $rem * 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    p {
+        text-shadow: 0 0 9px #fff;
+        font-size: $rem * 1.05;
+    }
+}
+
+.kmom-box-link-wrap {
+    padding: $rem * 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.arrow {
+    height: $rem * 2;
+    width: auto;
+    padding: 0;
+}

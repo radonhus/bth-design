@@ -8,7 +8,8 @@
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass radonhus/scss/style.scss radonhus/css/style.css --no-source-map",
     "style-min": "sass radonhus/scss/style.scss radonhus/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass radonhus/scss/style.scss radonhus/css/style.css --no-source-map --watch"
+    "watch": "sass radonhus/scss/style.scss radonhus/css/style.css --no-source-map --watch",
+    "watch-min": "sass radonhus/scss/style.scss radonhus/css/style.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",

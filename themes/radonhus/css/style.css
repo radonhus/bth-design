@@ -6456,113 +6456,6 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-@font-face {
-  font-family: "Alata";
-  src: url("../../shared/fonts/Alata-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "SosaRegular";
-  src: url("../../shared/fonts/SosaRegular-MJmx.ttf") format("truetype");
-}
-* {
-  font-family: "Arial", sans-serif;
-}
-
-html {
-  font-size: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Alata", sans-serif;
-  letter-spacing: 0.1em;
-  margin-bottom: 0.6em;
-  font-weight: bold;
-  color: #000;
-}
-
-h1 {
-  font-size: 400%;
-}
-
-h2 {
-  font-size: 170%;
-}
-
-h3 {
-  font-size: 140%;
-}
-
-h4 {
-  font-size: 110%;
-}
-
-h5,
-h6 {
-  font-size: 100%;
-}
-
-h6 {
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  font-family: sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  font-variant-ligatures: common-ligatures;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal;
-  color: #000;
-}
-
-p,
-td,
-th,
-li,
-dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-p,
-hr,
-table,
-.table-responsive,
-ol,
-ul,
-dl,
-dd,
-pre,
-blockquote,
-fieldset {
-  margin-bottom: 1em;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-  transition: color 0.2s ease-in;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-}
-
-abbr {
-  text-decoration: underline dotted;
-}
-
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6615,7 +6508,7 @@ hr {
 
 .main {
   flex: 1 0 auto;
-  padding: 5em 0 4em;
+  padding: 2em 0 4em;
   /* very ugly overflow fix, avoid this whenever possible! */
 }
 .main .container {
@@ -6645,7 +6538,7 @@ hr {
 .logo {
   float: left;
   padding: 3em 3em 2em 0;
-  height: 10.8em;
+  height: 12em;
 }
 .logo * {
   display: block;
@@ -6655,7 +6548,7 @@ hr {
   min-width: 4.8em;
 }
 .logo + .title h1 {
-  margin: 0;
+  margin: 0.17em 0 0;
 }
 .logo + .title.tagline h1 {
   margin: 0;
@@ -6766,64 +6659,6 @@ hr {
   font-size: 2rem;
 }
 
-/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
-@media (max-width: 767px) {
-  .main {
-    padding: 2em 0 1em;
-  }
-
-  .title,
-.logo {
-    padding: 2em 1.5em 2em 0;
-  }
-
-  .logo {
-    height: 8.8em;
-  }
-
-  .nav {
-    clear: both;
-    padding: 0;
-  }
-
-  .nav ul {
-    padding-bottom: 1em;
-  }
-
-  .nav ul li {
-    display: block;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .js .nav-toggle > * {
-    vertical-align: middle;
-  }
-
-  .footer p {
-    padding: 1em 0;
-  }
-
-  .footer .social {
-    padding: 0.5em 0 0.5em 1em;
-  }
-}
 /*** UTILITIES ***/
 .align-left {
   text-align: left;
@@ -6876,26 +6711,6 @@ hr {
   margin: 1em 0 1em 2em;
 }
 
-@media (max-width: 767px) {
-  .image.xsmall {
-    width: 60%;
-  }
-
-  .image.small {
-    width: 80%;
-  }
-
-  .image.large,
-.image.xlarge {
-    width: 100%;
-  }
-
-  .image.float-left,
-.image.float-right {
-    float: none;
-    margin: 0 auto;
-  }
-}
 /*** TABLES ***/
 table {
   border-spacing: 0;
@@ -7103,4 +6918,330 @@ input::-moz-focus-inner,
 button::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: "Alata";
+  src: url("../../shared/fonts/Alata-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SosaRegular";
+  src: url("../../shared/fonts/SosaRegular-MJmx.ttf") format("truetype");
+}
+* {
+  font-family: "Arial", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alata", sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.6em;
+  color: #000;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 27.2px;
+}
+
+h4 {
+  font-size: 17.6px;
+}
+
+h5,
+h6 {
+  font-size: 16px;
+}
+
+h6 {
+  font-style: italic;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  color: #000;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p,
+hr,
+table,
+.table-responsive,
+ol,
+ul,
+dl,
+dd,
+pre,
+blockquote,
+fieldset {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9a0000;
+}
+
+img {
+  max-width: 100%;
+}
+
+abbr {
+  text-decoration: underline dotted;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.landingpage {
+  display: grid;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 16px;
+}
+
+.report-h2 {
+  grid-column: span 3;
+  margin: 0;
+  text-align: left;
+}
+
+.kmom-box {
+  width: 328px;
+  height: 328px;
+  background-size: cover;
+  box-shadow: 2px 2px 2px #999;
+}
+
+.kmom01 {
+  background-image: url("../../../assets/img/tile_cosmos.jpg");
+}
+
+.kmom02 {
+  background-image: url("../../../assets/img/tile_chisinau.jpg");
+}
+
+.kmom03 {
+  background-image: url("../../../assets/img/tile_post.jpg");
+}
+
+.kmom04 {
+  background-image: url("../../../assets/img/tile_tbilisi.jpg");
+}
+
+.kmom05 {
+  background-image: url("../../../assets/img/tile_zagreb.jpg");
+}
+
+.kmom06 {
+  background-image: url("../../../assets/img/tile_skopje.jpg");
+}
+
+.project {
+  grid-column: span 3;
+  width: auto;
+  background-image: url("../../../assets/img/tile_project_tiraspol.jpg");
+  margin: 0 0 2px;
+}
+
+.opacity {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kmom-box-title-wrap {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.kmom-box-title-wrap p {
+  text-shadow: 0 0 9px #fff;
+  font-size: 16.8px;
+}
+
+.kmom-box-link-wrap {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.arrow {
+  height: 32px;
+  width: auto;
+  padding: 0;
+}
+
+.kmom-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.kmom-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 3em 0 1em;
+}
+.kmom-menu a {
+  font-family: "Alata", sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.6em;
+  font-size: 27.2px;
+}
+.kmom-menu .active-page {
+  color: #9a0000;
+}
+
+.kmom-content {
+  padding: 0 16px;
+}
+
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+@media (max-width: 767px) {
+  .main {
+    padding: 2em 0 1em;
+  }
+
+  .title,
+.logo {
+    padding: 2em 1.5em 2em 0;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  .logo {
+    height: 8.8em;
+  }
+
+  .nav {
+    clear: both;
+    padding: 0;
+  }
+
+  .nav ul {
+    padding-bottom: 1em;
+  }
+
+  .nav ul li {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .js .nav-toggle > * {
+    vertical-align: middle;
+  }
+
+  .footer p {
+    padding: 1em 0;
+  }
+
+  .footer .social {
+    padding: 0.5em 0 0.5em 1em;
+  }
+
+  .image.xsmall {
+    width: 60%;
+  }
+
+  .image.small {
+    width: 80%;
+  }
+
+  .image.large,
+.image.xlarge {
+    width: 100%;
+  }
+
+  .image.float-left,
+.image.float-right {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1070px) {
+  .landingpage {
+    justify-content: initial;
+    gap: 16px;
+  }
+
+  .report-h2 {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .report-h2,
+.kmom-box,
+.project {
+    width: auto;
+    height: auto;
+    grid-column: span 1;
+  }
+
+  .kmom-menu {
+    display: none;
+  }
 }

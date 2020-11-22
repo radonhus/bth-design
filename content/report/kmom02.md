@@ -1,9 +1,12 @@
 ---
 Title: Redovisning - Kmom02
 Description: Min redovisningstext för kursmoment 02
+Template: kmom
+KmomId: kmom02
+MenuTitle: Kmom02
 ---
 
-KMOM02
+Kursmoment 02
 -----------
 ####Vad tycker du om SASS än så länge?
 SASS verkar väldigt smart och smidigt. Jag skrev reglerna med SCSS (d.v.s. inte

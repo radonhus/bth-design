@@ -1,6 +1,6 @@
 ---
-Logo: image/me.jpg
-Tagline: – Student på kursen Design, BTH, hösten 2020
+Logo: image/nylogga.png
+Tagline: – Studentwebbplats, Teknisk webbdesign och användbarhet, BTH
 Social:
     - title: Länk till sidans github-repo
       url: https://github.com/radonhus/bth-design

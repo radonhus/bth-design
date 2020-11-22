@@ -3,7 +3,7 @@ Title: Start
 Description: This is our index page.
 ---
 
-STARTSIDA
+Startsida
 -----------------------------------
 ![Jag](%assets_url%/img/jabuka.jpg)
 
