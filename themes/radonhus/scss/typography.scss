@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-size: $rem * 2.5;
+    font-size: $rem * 2.2;
 }
 
 h3 {
@@ -106,7 +106,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: $highlight-color;
+    color: $highlight-color2;
 }
 
 
@@ -124,6 +124,6 @@ abbr {
 }
 
 .navigation-icon {
-    font-family: "icon";
+    font-family: 'icon';
     text-decoration: none;
 }

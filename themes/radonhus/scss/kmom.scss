@@ -18,9 +18,13 @@
 
     .active-page {
         color: $highlight-color;
+        text-decoration: $text-decoration-kmom-menu;
     }
 }
 
 .kmom-content {
-    padding: 0 $rem * 1;
+    margin: $rem;
+    padding: $rem $rem * 1.5;
+    background-color: $report-analysis-text-background;
+    box-shadow: $report-analysis-text-box-shadow;
 }

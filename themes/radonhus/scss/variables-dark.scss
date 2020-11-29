@@ -1,17 +1,27 @@
 $rem: 16px; //Root element font size
-$background-color: #333333;
-$background-color-footer: #000;
-$title-color: #ccc;
-$flash-ribbon: url('../../../assets/img/flash-ribbon-dark.png');
-$footer-image: url('../../../assets/img/footer-dark.png');
+$background-color: #333;
+$image-filter: brightness(0.75) contrast(1.1);
 $text-color: #ccc;
 $link-color: #ccc;
-$text-link-color-footer: #adb5bd;
-$highlight-color-footer: #fff;
-$highlight-color: #9a0000;
-$report-tile-opacity: rgba(0, 0, 0, 0.6);
-$report-tile-shadow: #000;
-$report-tile-box-shadow: none;
-$image-filter: brightness(.75) contrast(1.1);
-$arrow: url('../../../assets/img/arrow_large_dark.png');
+$highlight-color: #ccc;
+$highlight-color2: #ccc;
 $listdash: url('../../../assets/img/listdash-dark.png');
+
+$title-color: #ccc;
+$header-back: url('../../../assets/img/header-back-dark.jpg');
+$text-shadow-header: 0 0 10px #000;
+$flash-ribbon-upper: url('../../../assets/img/flash-ribbon-upper-dark.png');
+$flash-ribbon-lower: url('../../../assets/img/flash-ribbon-lower-dark.png');
+
+$report-tile-opacity: rgba(0, 0, 0, 0.55);
+$report-tile-shadow: #000;
+$report-tile-box-shadow: 5px 5px 5px #222;
+$arrow: url('../../../assets/img/arrow_large_dark.png');
+$report-analysis-text-background: #444;
+$report-analysis-text-box-shadow: none;
+$text-decoration-kmom-menu: underline;
+
+$background-color-footer: #000;
+$footer-image: url('../../../assets/img/footer-dark.png');
+$text-link-color-footer: #adb5bd;
+$highlight-color-footer: #9a0000;

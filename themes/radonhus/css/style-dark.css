@@ -378,7 +378,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #121212;
+  background-color: #333;
 }
 
 hr {
@@ -394,7 +394,7 @@ img {
 .start-img {
   float: left;
   filter: grayscale(100%);
-  padding-right: 1em;
+  padding-right: 2em;
 }
 
 .main {
@@ -423,7 +423,11 @@ img {
 
 /*** BASIC LAYOUT: HEADER ***/
 .header {
-  background: #121212;
+  background: #333;
+  background-image: url("../../../assets/img/header-back-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
 }
 
 .logo {
@@ -441,7 +445,8 @@ img {
 }
 .logo + .title h1 {
   margin: 0.17em 0 0;
-  color: #fff;
+  color: #ccc;
+  text-shadow: 0 0 10px #000;
 }
 .logo + .title.tagline h1 {
   margin: 0;
@@ -453,11 +458,15 @@ img {
 }
 .title * {
   margin: 0;
-  color: #ddd;
+  color: #ccc;
 }
 .title p {
-  font-style: italic;
   text-align: center;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 0 10px #000;
 }
 .title a:hover {
   text-decoration: none;
@@ -476,21 +485,26 @@ img {
   display: inline-block;
   margin-left: 1em;
   padding: 0;
-  font-weight: bold;
 }
 .nav a,
 .nav .nav-toggle {
-  color: #ddd;
+  color: #ccc;
 }
-.nav .active a,
-.nav a:hover,
-.nav .nav-toggle:hover {
-  color: #9a0000;
-}
-.nav a:hover,
-.nav .nav-toggle:hover {
-  color: #9a0000;
+.nav .active a {
+  color: #ccc;
   text-decoration: underline;
+}
+.nav a:hover,
+.nav .nav-toggle:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+.nav .alata-font {
+  font-family: "Alata", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 17.6px;
+  font-weight: normal;
+  text-shadow: 0 0 10px #000;
 }
 
 .nav-toggle {
@@ -506,14 +520,20 @@ img {
 
 .flash-region {
   width: inherit;
-  height: 36px;
-  background-color: #121212;
+  height: 18px;
 }
 
-.flash-img {
+.flash-img-upper {
   width: inherit;
-  height: 36px;
-  background: url("../../../assets/img/flash-ribbon.png");
+  height: 18px;
+  background: url("../../../assets/img/flash-ribbon-upper-dark.png");
+  background-repeat: repeat-x;
+}
+
+.flash-img-lower {
+  width: inherit;
+  height: 18px;
+  background: url("../../../assets/img/flash-ribbon-lower-dark.png");
   background-repeat: repeat-x;
 }
 
@@ -521,7 +541,7 @@ img {
 .footer-image-container {
   width: inherit;
   height: 400px;
-  background-color: #121212;
+  background-color: #333;
 }
 
 .footer-image {
@@ -541,7 +561,7 @@ img {
   text-decoration: none;
 }
 .footer a:hover {
-  color: #fff;
+  color: #9a0000;
   text-decoration: none;
 }
 .footer p {
@@ -655,7 +675,7 @@ ol,
 ul {
   list-style-position: outside;
   padding-left: 1.5em;
-  list-style-image: url("../../../assets/img/listdash.png");
+  list-style-image: url("../../../assets/img/listdash-dark.png");
 }
 
 ol {
@@ -825,7 +845,7 @@ h6 {
   font-family: "Alata", sans-serif;
   letter-spacing: 0.1em;
   margin-bottom: 0.6em;
-  color: #ddd;
+  color: #ccc;
   font-weight: normal;
 }
 
@@ -835,7 +855,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35.2px;
 }
 
 h3 {
@@ -863,7 +883,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #ddd;
+  color: #ccc;
 }
 
 p,
@@ -891,14 +911,14 @@ fieldset {
 }
 
 a {
-  color: #ddd;
+  color: #ccc;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #9a0000;
+  color: #ccc;
 }
 
 img {
@@ -936,7 +956,7 @@ abbr {
   width: 328px;
   height: 328px;
   background-size: cover;
-  box-shadow: 2px 2px 2px #000;
+  box-shadow: 5px 5px 5px #222;
 }
 
 .kmom01 {
@@ -973,7 +993,7 @@ abbr {
 .opacity {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.55);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -996,6 +1016,23 @@ abbr {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.link-box {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background: url("../../../assets/img/arrow_large_dark.png");
+}
+
+.link-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .arrow {
@@ -1051,11 +1088,15 @@ abbr {
   font-size: 27.2px;
 }
 .kmom-menu .active-page {
-  color: #9a0000;
+  color: #ccc;
+  text-decoration: underline;
 }
 
 .kmom-content {
-  padding: 0 16px;
+  margin: 16px;
+  padding: 16px 24px;
+  background-color: #444;
+  box-shadow: none;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/

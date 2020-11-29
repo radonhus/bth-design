@@ -1,17 +1,28 @@
 $rem: 16px; //Root element font size
 $background-color: #eee;
-$background-color-footer: #000;
-$title-color: #000;
-$flash-ribbon: url('../../../assets/img/flash-ribbon.png');
-$footer-image: url('../../../assets/img/footer.png');
+
+$image-filter: none;
 $text-color: #000;
 $link-color: #000;
-$text-link-color-footer: #adb5bd;
-$highlight-color-footer: #fff;
 $highlight-color: #9a0000;
+$highlight-color2: #c00;
+$listdash: url('../../../assets/img/listdash.png');
+
+$title-color: #000;
+$header-back: url('../../../assets/img/header-back.jpg');
+$text-shadow-header: 0 0 10px #fff;
+$flash-ribbon-upper: url('../../../assets/img/flash-ribbon-upper.png');
+$flash-ribbon-lower: url('../../../assets/img/flash-ribbon-lower.png');
+
 $report-tile-opacity: rgba(255, 255, 255, 0.7);
 $report-tile-shadow: #fff;
 $report-tile-box-shadow: 2px 2px 2px #999;
-$image-filter: none;
 $arrow: url('../../../assets/img/arrow_large.png');
-$listdash: url('../../../assets/img/listdash.png');
+$report-analysis-text-background: #f8f8f8;
+$report-analysis-text-box-shadow: 10px 10px 10px #bbb;
+$text-decoration-kmom-menu: none;
+
+$background-color-footer: #000;
+$footer-image: url('../../../assets/img/footer_red.png');
+$text-link-color-footer: #adb5bd;
+$highlight-color-footer: #9a0000;
