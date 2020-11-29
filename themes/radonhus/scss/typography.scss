@@ -8,6 +8,12 @@
     src: url('../../shared/fonts/SosaRegular-MJmx.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'icon';
+    src: url('../../shared/fonts/modernpics.otf') format('opentype');
+}
+
+
 * {
     font-family: 'Arial', sans-serif;
 }
@@ -25,7 +31,7 @@ h6 {
     font-family: 'Alata', sans-serif;
     letter-spacing: 0.1em;
     margin-bottom: 0.6em;
-    color: #000;
+    color: $text-color;
     font-weight: normal;
 }
 
@@ -40,16 +46,17 @@ h2 {
 }
 
 h3 {
-    font-size: $rem * 1.7;
+    font-size: $rem * 1.8;
 }
 
 h4 {
-    font-size: $rem * 1.1;
+    font-size: $rem * 1.5;
 }
 
 h5,
 h6 {
-    font-size: $rem;
+    font-size: $rem * 1.1;
+    font-weight: bold;
 }
 
 h6 {
@@ -64,7 +71,7 @@ body {
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
-    color: #000;
+    color: $text-color;
 }
 
 p,
@@ -114,4 +121,9 @@ abbr {
 
 .italic {
     font-style: italic;
+}
+
+.navigation-icon {
+    font-family: "icon";
+    text-decoration: none;
 }

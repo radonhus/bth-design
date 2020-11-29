@@ -1,10 +1,10 @@
 ---
 Title: Redovisning
 Description: Denna sida innehåller alla mina redovisningstexter
-Template: report
+Template: report-analysis
 KmomId: reportindex
 ---
-<h2 class="report-h2">Redovisning</h2>
+<h2 class="reportanalysis-h2">Redovisning</h2>
 
 <div class="kmom-box kmom01">
 <div class="opacity">
@@ -13,9 +13,9 @@ KmomId: reportindex
         <p>– Ramverk, innehåll, style</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom01">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom01"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -27,9 +27,9 @@ KmomId: reportindex
         <p>– SASS och typografi</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom02">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom02"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -41,9 +41,9 @@ KmomId: reportindex
         <p>– Layout</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom03">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom03"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -55,9 +55,9 @@ KmomId: reportindex
         <p>– Färg</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom04">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom04"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -69,9 +69,9 @@ KmomId: reportindex
         <p>– Bilder</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom05">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom05"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -83,9 +83,9 @@ KmomId: reportindex
         <p>– Tillgänglighet och prestanda</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom06">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom06"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -97,9 +97,9 @@ KmomId: reportindex
         <p>– Projekt och examination</p>
     </div>
     <div class="kmom-box-link-wrap">
-        <a href="report/kmom10">
-        <img src="assets/img/arrow_large.png" class="arrow">
-        </a>
+        <div class="link-box">
+            <a class="link-arrow" href="report/kmom10"></a>
+        </div>
     </div>
 </div>
 </div>

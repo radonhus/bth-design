@@ -49,6 +49,16 @@ hr {
     background: #f5f5f5;
 }
 
+img {
+    filter: $image-filter;
+}
+
+.start-img {
+    float: left;
+    filter: grayscale(100%);
+    padding-right: 2em;
+}
+
 .main {
     flex: 1 0 auto;
     padding: 2em 0 4em;
@@ -92,10 +102,12 @@ hr {
 
     img {
         min-width: 4.8em;
+        filter: none;
     }
 
     +.title h1 {
         margin: 0.17em 0 0;
+        color: $title-color;
     }
 
     +.title.tagline h1 {
@@ -181,7 +193,7 @@ hr {
 .flash-img {
     width: inherit;
     height: 36px;
-    background: url('../../../assets/img/flash-ribbon.png');
+    background: $flash-ribbon;
     background-repeat: repeat-x;
 }
 
@@ -196,7 +208,7 @@ hr {
 .footer-image {
     width: inherit;
     height: 400px;
-    background: url('../../../assets/img/footer.png');
+    background: $footer-image;
     background-size: cover;
     background-repeat: repeat-x;
 }
@@ -207,10 +219,12 @@ hr {
 
     a {
         color: $text-link-color-footer;
+        text-decoration: none;
     }
 
     a:hover {
         color: $highlight-color-footer;
+        text-decoration: none;
     }
 
     p {
@@ -289,7 +303,6 @@ td,
 th {
     padding: 0.4em 1em;
     vertical-align: top;
-    border: 1px solid #ccc;
 }
 
 th {
@@ -313,24 +326,6 @@ th:not(:last-child) {
     border-right: 0 none;
 }
 
-tr:first-child td:first-child,
-tr:first-child th:first-child {
-    border-top-left-radius: 0.3em;
-}
-
-tr:first-child td:last-child,
-tr:first-child th:last-child {
-    border-top-right-radius: 0.3em;
-}
-
-tbody tr:last-child td:first-child {
-    border-bottom-left-radius: 0.3em;
-}
-
-tbody tr:last-child td:last-child {
-    border-bottom-right-radius: 0.3em;
-}
-
 table thead+tbody tr:first-child td {
     border-radius: 0 !important;
 }
@@ -349,7 +344,7 @@ ol,
 ul {
     list-style-position: outside;
     padding-left: 1.5em;
-    list-style-image: url('../../../assets/img/listdash.png');
+    list-style-image: $listdash;
 }
 
 ol {

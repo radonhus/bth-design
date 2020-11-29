@@ -1,9 +1,17 @@
 $rem: 16px; //Root element font size
 $background-color: #eee;
 $background-color-footer: #000;
+$title-color: #000;
+$flash-ribbon: url('../../../assets/img/flash-ribbon.png');
+$footer-image: url('../../../assets/img/footer.png');
 $text-color: #000;
 $link-color: #000;
 $text-link-color-footer: #adb5bd;
 $highlight-color-footer: #fff;
 $highlight-color: #9a0000;
-$fa-font-path: '../../shared/fontawesome/webfonts';
+$report-tile-opacity: rgba(255, 255, 255, 0.7);
+$report-tile-shadow: #fff;
+$report-tile-box-shadow: 2px 2px 2px #999;
+$image-filter: none;
+$arrow: url('../../../assets/img/arrow_large.png');
+$listdash: url('../../../assets/img/listdash.png');

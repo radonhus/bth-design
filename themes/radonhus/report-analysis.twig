@@ -64,23 +64,8 @@
         </div>
     </div>
     <div class="main" role="main">
-        <div class="container">
-            <div class="kmom-page">
-                <aside class="kmom-menu">
-                    <ul>
-                    {% for page in pages("report") %}
-                        <li>
-                            <a href="{{ page.meta.KmomId }}" {% if current_page.id ends with page.meta.KmomId %} class="active-page"{% endif %}>
-                                {{ page.meta.MenuTitle }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </aside>
-                <div class="kmom-content">
-                    {{ content }}
-                </div>
-            </div>
+        <div class="landingpage">
+            {{ content }}
         </div>
     </div>
     <div class="footer-image-container">

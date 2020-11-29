@@ -17,7 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -71,10 +75,9 @@
     <div class="footer">
         <div class="container">
             <div class="social">
-                <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
                 {% for social in pages["_meta"].meta.social %}
-                    <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                        <i class="{{ social.icon }}" aria-hidden="true"></i>
+                    <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="{{ social.target }}">
+                        <span class="navigation-icon" aria-hidden="true">{{ social.icon }}</span>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}

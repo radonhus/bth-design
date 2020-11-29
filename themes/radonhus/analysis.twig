@@ -68,7 +68,7 @@
             <div class="kmom-page">
                 <aside class="kmom-menu">
                     <ul>
-                    {% for page in pages("report") %}
+                    {% for page in pages("analysis") %}
                         <li>
                             <a href="{{ page.meta.KmomId }}" {% if current_page.id ends with page.meta.KmomId %} class="active-page"{% endif %}>
                                 {{ page.meta.MenuTitle }}

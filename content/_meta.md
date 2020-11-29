@@ -1,17 +1,17 @@
 ---
-Logo: image/nylogga.png
+Logo: image/nylogga-igen.png
 Tagline: – Studentwebbplats, Teknisk webbdesign och användbarhet, BTH
 Social:
-    - title: Länk till sidans github-repo
+    - title: Sidans github-repo (i ny flik)
       url: https://github.com/radonhus/bth-design
-      icon: fab fa-github
-    - title: Redovisningssida för kursen HtmlPhp
-      url: http://www.student.bth.se/~riax20/dbwebb-kurser/htmlphp/me/kmom06/me6/report.php
-      icon: fab fa-php
-    - title: Redovisningssida för kursen JavaScript
-      url: http://www.student.bth.se/~riax20/dbwebb-kurser/js/me/redovisa/redovisning.php
-      icon: fab fa-js-square
-    - title: Redovisningssida för kursen Python
-      url: http://www.student.bth.se/~riax20/dbwebb-kurser/python/me/redovisa/redovisning.html
-      icon: fab fa-python
+      icon: (
+      target: _blank
+    - title: Mörkt/ljust tema
+      url: ?action=theme
+      icon: E
+      target: _self
+    - title: Förstör session
+      url: ?action=session_destroy
+      icon: x
+      target: _self
 ---
