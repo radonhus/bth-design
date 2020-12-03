@@ -533,6 +533,26 @@ img {
   flex: 0 0 auto;
 }
 
+.fa-bars:before {
+  content: "Z";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-family: "icon";
+  font-size: 64px;
+}
+
+.fa-times:before {
+  content: "X";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-family: "icon";
+  font-size: 64px;
+}
+
 .container {
   max-width: 48em;
   padding: 0 0.5em;
@@ -1184,6 +1204,7 @@ button::-moz-focus-inner {
   .landingpage {
     justify-content: initial;
     gap: 16px;
+    grid-template-columns: auto auto auto;
   }
 
   .report-h2 {
@@ -1196,7 +1217,7 @@ button::-moz-focus-inner {
 .project {
     width: auto;
     height: auto;
-    grid-column: span 1;
+    grid-column: span 3;
   }
 
   .kmom-menu {

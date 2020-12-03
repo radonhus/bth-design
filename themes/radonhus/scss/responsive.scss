@@ -86,6 +86,7 @@
     .landingpage {
         justify-content: initial;
         gap: $rem * 1;
+        grid-template-columns: auto auto auto;
     }
 
     .report-h2 {
@@ -98,7 +99,7 @@
     .project {
         width: auto;
         height: auto;
-        grid-column: span 1;
+        grid-column: span 3;
     }
 
     .kmom-menu {

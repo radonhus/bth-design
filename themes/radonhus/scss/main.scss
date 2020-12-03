@@ -74,6 +74,27 @@ img {
     flex: 0 0 auto;
 }
 
+// Menu classes. Specified in shared script, don't change the class names 
+.fa-bars:before {
+  content: "Z";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-family: "icon";
+  font-size: $rem * 4;
+}
+
+.fa-times:before {
+  content: "X";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-family: "icon";
+  font-size: $rem * 4;
+}
+
 .container {
     max-width: 48em;
     padding: 0 0.5em;
