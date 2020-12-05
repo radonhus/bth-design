@@ -1,0 +1,36 @@
+.gallerypage {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    width: $rem * 72;
+    gap: $rem * 2;
+    padding: 0 $rem * 1;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery-h2 {
+    grid-column: span 3;
+    width: auto;
+    margin: 0;
+    text-align: left;
+}
+
+@media (max-width: 1170px) {
+    .gallerypage {
+        justify-content: initial;
+        width: auto;
+        gap: $rem * 1;
+        grid-template-columns: auto auto auto;
+    }
+
+    .gallery-h2 {
+        margin-bottom: $rem * 1;
+        text-align: center;
+    }
+
+    .gallery-image {
+        width: auto;
+        grid-column: span 3;
+    }
+
+}

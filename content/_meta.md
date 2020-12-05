@@ -4,14 +4,14 @@ Tagline: – Studentwebbplats, Teknisk webbdesign och användbarhet, BTH
 Social:
     - title: Sidans github-repo (i ny flik)
       url: https://github.com/radonhus/bth-design
-      icon: (
+      icon: D
       target: _blank
     - title: Mörkt/ljust tema
       url: ?action=theme
-      icon: E
+      icon: ö
       target: _self
     - title: Förstör session
       url: ?action=session_destroy
-      icon: x
+      icon: ã
       target: _self
 ---

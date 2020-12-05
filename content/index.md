@@ -6,7 +6,7 @@ Description: Startsida
 Välkommen
 -----------------------------------
 
-<img src="assets/img/me.jpg" class="start-img">
+<img src="assets/img/me.jpg" class="start-img" alt="Jag framför ABC80">
 
 Det här är min portfoliosida för kursen Teknisk webbdesign och användbarhet,
 en del av programmet Webbprogrammering som jag läser hösten 2020. Jag har
