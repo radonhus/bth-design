@@ -43,8 +43,8 @@ hjälpt mig ta reda på WizzAirs brödtexttypsnitt.
 ###Resultat
 
 ####Lufthansa.com
-<a href="../assets/img/analysis_01_lufthansa.png" target="_blank">
-<img src="../assets/img/analysis_01_lufthansa_thumb.png" alt="Lufthansa.com">
+<a href="../assets/img/analysis/analysis_01_lufthansa.png" target="_blank">
+<img src="../assets/img/analysis/analysis_01_lufthansa_thumb.png" alt="Lufthansa.com">
 </a>
 
 #####Färger
@@ -56,8 +56,8 @@ vara ett komplementerande färgschema. Den gula färgen används som accentfärg
 för call-to-action-knappar och för att visa på t.ex. låga priser. Utöver det
 förekommer olika grånyanser och mörka blå nyanser i menyer och textblock.
 
-<div class="color-wrap">
-    <img src="../assets/img/analysis_01_lufthansa_wheel.png" class="color-wheel" alt="Färghjul Lufthansa.com">
+<div class="report-analysis-inline-wrap">
+    <img src="../assets/img/analysis/analysis_01_lufthansa_wheel.png" class="report-analysis-inline-img" alt="Färghjul Lufthansa.com">
     <table class="color-table">
         <tr><td class="color-box" style="background-color: #05154d"></td><td class="color-code">#05154d</td></tr>
         <tr><td class="color-box" style="background-color: #ffad01"></td><td class="color-code">#ffad01</td></tr>
@@ -86,8 +86,8 @@ tradition.
 
 ####Ryanair.com
 
-<a href="../assets/img/analysis_01_ryanair.png" target="_blank">
-<img src="../assets/img/analysis_01_ryanair_thumb.png" alt="Ryanair.com">
+<a href="../assets/img/analysis/analysis_01_ryanair.png" target="_blank">
+<img src="../assets/img/analysis/analysis_01_ryanair_thumb.png" alt="Ryanair.com">
 </a>
 
 #####Färger
@@ -106,8 +106,8 @@ blått. T.ex. på webbplatsens hero-image som skiftar från mörkare till
 ljusare blått, samt en ljus blå nyans (#2091eb) i t.ex. många ikoner och
 sökrutor.
 
-<div class="color-wrap">
-    <img src="../assets/img/analysis_01_ryanair_wheel.png" class="color-wheel" alt="Färghjul Ryanair.com">
+<div class="report-analysis-inline-wrap">
+    <img src="../assets/img/analysis/analysis_01_ryanair_wheel.png" class="report-analysis-inline-img" alt="Färghjul Ryanair.com">
     <table class="color-table">
         <tr><td class="color-box" style="background-color: #08428c"></td><td class="color-code">#08428c</td></tr>
         <tr><td class="color-box" style="background-color: #2091eb"></td><td class="color-code">#2091eb</td></tr>
@@ -137,8 +137,8 @@ inte av mot detta, utan är väldigt neutralt.
 
 ####Wizzair.com
 
-<a href="../assets/img/analysis_01_wizzair.png" target="_blank">
-<img src="../assets/img/analysis_01_wizzair_thumb.png" alt="Wizzair.com">
+<a href="../assets/img/analysis/analysis_01_wizzair.png" target="_blank">
+<img src="../assets/img/analysis/analysis_01_wizzair_thumb.png" alt="Wizzair.com">
 </a>
 
 #####Färger
@@ -155,8 +155,8 @@ används som accentfärg för viktig information. Denna bryter av mot det analog
 färgschemat och ligger nästan på motsatt sida i färghjulet från webbplatsens
 vanligaste mörkblå nyans, och som därmed nästan är dess komplementfärg.
 
-<div class="color-wrap">
-    <img src="../assets/img/analysis_01_wizzair_wheel.png" class="color-wheel" alt="Färghjul Wizzair.com">
+<div class="report-analysis-inline-wrap">
+    <img src="../assets/img/analysis/analysis_01_wizzair_wheel.png" class="report-analysis-inline-img" alt="Färghjul Wizzair.com">
     <table class="color-table">
         <tr><td class="color-box" style="background-color: #5c166e"></td><td class="color-code">#5c166e</td></tr>
         <tr><td class="color-box" style="background-color: #c6007e"></td><td class="color-code">#c6007e</td></tr>
