@@ -43,11 +43,11 @@ hjälpt mig ta reda på WizzAirs brödtexttypsnitt.
 ###Resultat
 
 ####Lufthansa.com
-<a href="../assets/img/analysis/analysis_01_lufthansa.png" target="_blank">
+<a href="../assets/img/analysis/analysis_01_lufthansa.png" target="_blank" title="Screenshot på Lufthansa.com">
 <img src="../assets/img/analysis/analysis_01_lufthansa_thumb.png" alt="Lufthansa.com">
 </a>
 
-#####Färger
+**Färger**
 
 Lufthansas webbplats har väldigt sparsmakat med färger och använder sig av ett
 färgschema med en mörkblå (#05154d) och en gul (#ffad01) färg. De två färgerna
@@ -67,7 +67,7 @@ förekommer olika grånyanser och mörka blå nyanser i menyer och textblock.
     </table>
 </div>
 
-#####Typografi
+**Typografi**
 
 Lufthansa.com använder sig genomgående av egna typsnitt som alla är sans-serifer.
 Texten är aldrig helt svart, utan använder en väldigt mörkt blå (#000036). Ljusa
@@ -86,11 +86,11 @@ tradition.
 
 ####Ryanair.com
 
-<a href="../assets/img/analysis/analysis_01_ryanair.png" target="_blank">
+<a href="../assets/img/analysis/analysis_01_ryanair.png" target="_blank" title="Screenshot på Ryanair.com">
 <img src="../assets/img/analysis/analysis_01_ryanair_thumb.png" alt="Ryanair.com">
 </a>
 
-#####Färger
+**Färger**
 
 Webbplatsens dominerande färger är mörkblå färg (#08428c) samt en gul färg
 (#f2c335) som hämtats från logotypen. De är (nästan) varandras
@@ -117,7 +117,7 @@ sökrutor.
     </table>
 </div>
 
-#####Typografi
+**Typografi**
 
 Ryanair använder sig av typsnittet Roboto i både rubriker och brödtext. Det är
 ett mycket vanligt sans-serif-typsnitt. Textbakgrund är ofta vit, och när den
@@ -137,11 +137,11 @@ inte av mot detta, utan är väldigt neutralt.
 
 ####Wizzair.com
 
-<a href="../assets/img/analysis/analysis_01_wizzair.png" target="_blank">
+<a href="../assets/img/analysis/analysis_01_wizzair.png" target="_blank" title="Screenshot på Wizzair.com">
 <img src="../assets/img/analysis/analysis_01_wizzair_thumb.png" alt="Wizzair.com">
 </a>
 
-#####Färger
+**Färger**
 
 De dominerande färgerna på Wizzair.com är de lila (#5c166e) och rosa (#c6007e)
 färger som förekommer i företagets logotyp, samt en mörkblå färg (#06038d). På
@@ -166,7 +166,7 @@ vanligaste mörkblå nyans, och som därmed nästan är dess komplementfärg.
     </table>
 </div>
 
-#####Typografi
+**Typografi**
 
 Wizzair.com använder P22 Underground Pro för rubriker. Typsnittet är ett
 sans-serif (och känns igen från bl.a. Londons tunnelbana). Även typsnittet för

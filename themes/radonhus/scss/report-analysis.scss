@@ -140,7 +140,7 @@
     border-spacing: 4px;
     margin: 0 0 2.5em 2em;
     border-collapse: separate;
-    background-color: rgba(200, 200, 200, 0.3);
+    background-color: $pagespeed-table-bg-color;
 
     td {
         font-family: monospace;
@@ -152,19 +152,19 @@
     }
 
     .red {
-        background-color: #ff4e42;
+        background-color: #9a0000;
         text-align: center;
         color: #fff;
     }
 
     .green {
-        background-color: #0cce6b;
+        background-color: #006b0f;
         text-align: center;
-        color: #000;
+        color: #fff;
     }
 
     .yellow {
-        background-color: #ffa400;
+        background-color: #f2af13;
         text-align: center;
         color: #000;
     }

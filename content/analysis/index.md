@@ -14,7 +14,7 @@ KmomId: analysisindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="analysis/01_colors"></a>
+            <a class="link-arrow" href="analysis/01_colors" title="Färgval"></a>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@ KmomId: analysisindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="analysis/02_load"></a>
+            <a class="link-arrow" href="analysis/02_load" title="Laddningstider och användbarhet"></a>
         </div>
     </div>
 </div>
@@ -42,7 +42,7 @@ KmomId: analysisindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="analysis/03_design_principles"></a>
+            <a class="link-arrow" href="analysis/03_design_principles" title="Tillgänglighet och prestanda"></a>
         </div>
     </div>
 </div>

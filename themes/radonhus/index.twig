@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,13 +28,13 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
                 <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
+                    <a href="{{ "index"|link }}" tabindex="-1">
                         <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                     </a>
                 </div>
@@ -81,7 +81,7 @@
             <div class="social">
                 {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="{{ social.target }}">
-                        <span class="navigation-icon" aria-hidden="true">{{ social.icon }}</span>
+                        <span class="navigation-icon" aria-hidden="true" tabindex="-1">{{ social.icon }}</span>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}

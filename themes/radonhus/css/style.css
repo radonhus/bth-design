@@ -436,6 +436,9 @@ a {
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
+a .inline-link {
+  text-decoration: underline;
+}
 
 a:hover {
   text-decoration: underline;
@@ -533,7 +536,7 @@ img {
   flex: 0 0 auto;
 }
 
-.fa-bars:before {
+.fa-bars::before {
   content: "Z";
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -543,7 +546,7 @@ img {
   font-size: 64px;
 }
 
-.fa-times:before {
+.fa-times::before {
   content: "X";
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -1061,14 +1064,14 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-.color-wrap {
+.report-analysis-inline-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 1em;
 }
 
-.color-wheel {
+.report-analysis-inline-img {
   padding: 0.5em;
 }
 
@@ -1088,6 +1091,51 @@ button::-moz-focus-inner {
 .color-code {
   font-family: monospace;
   line-height: 1;
+}
+
+.pagespeed-header {
+  margin-left: 2em;
+}
+
+.pagespeed-table {
+  padding: 0.5em;
+  border-spacing: 4px;
+  margin: 0 0 2.5em 2em;
+  border-collapse: separate;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+.pagespeed-table td {
+  font-family: monospace;
+  line-height: 1;
+}
+.pagespeed-table th {
+  font-weight: bold;
+}
+.pagespeed-table .red {
+  background-color: #9a0000;
+  text-align: center;
+  color: #fff;
+}
+.pagespeed-table .green {
+  background-color: #006b0f;
+  text-align: center;
+  color: #fff;
+}
+.pagespeed-table .yellow {
+  background-color: #f2af13;
+  text-align: center;
+  color: #000;
+}
+.pagespeed-table .light {
+  background-color: #f8f8f8;
+  text-align: center;
+  color: #000;
+}
+.pagespeed-table .bold {
+  font-weight: bold;
+}
+.pagespeed-table .right {
+  text-align: right;
 }
 
 .embed-container {

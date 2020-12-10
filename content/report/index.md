@@ -14,7 +14,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom01"></a>
+            <a class="link-arrow" href="report/kmom01" title="Kursmoment 01"></a>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom02"></a>
+            <a class="link-arrow" href="report/kmom02" title="Kursmoment 02"></a>
         </div>
     </div>
 </div>
@@ -42,7 +42,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom03"></a>
+            <a class="link-arrow" href="report/kmom03" title="Kursmoment 03"></a>
         </div>
     </div>
 </div>
@@ -56,7 +56,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom04"></a>
+            <a class="link-arrow" href="report/kmom04" title="Kursmoment 04"></a>
         </div>
     </div>
 </div>
@@ -70,7 +70,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom05"></a>
+            <a class="link-arrow" href="report/kmom05" title="Kursmoment 05"></a>
         </div>
     </div>
 </div>
@@ -84,7 +84,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom06"></a>
+            <a class="link-arrow" href="report/kmom06" title="Kursmoment 06"></a>
         </div>
     </div>
 </div>
@@ -98,7 +98,7 @@ KmomId: reportindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="report/kmom10"></a>
+            <a class="link-arrow" href="report/kmom10" title="Projekt"></a>
         </div>
     </div>
 </div>

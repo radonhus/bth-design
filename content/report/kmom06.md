@@ -8,5 +8,7 @@ MenuTitle: Kmom06
 
 Kursmoment 06
 -----------
-#####Placeholder-fråga
+
+**Placeholder-fråga**
+
 Placeholder-svar
