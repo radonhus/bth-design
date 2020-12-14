@@ -42,7 +42,7 @@ KmomId: analysisindex
     </div>
     <div class="kmom-box-link-wrap">
         <div class="link-box">
-            <a class="link-arrow" href="analysis/03_design_principles" title="Tillgänglighet och prestanda"></a>
+            <a class="link-arrow" href="analysis/03_designprincip" title="Tillgänglighet och prestanda"></a>
         </div>
     </div>
 </div>
