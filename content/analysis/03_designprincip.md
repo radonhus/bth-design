@@ -98,7 +98,7 @@ mot trekolumnersprincipen helt: vissa element täcker hela sidans bredd, och
 ibland är utrymmet uppdelad i bara två delar. Startsidan har två "bildkluster"
 som har en sorts asymmetrisk balans, t.ex. här:
 
-<a href="../image/analysis/analysis_03_arminlaschet_example.png" target="_blank" title"Assymetrisk balans">
+<a href="../image/analysis/analysis_03_arminlaschet_example.png" target="_blank" title="Assymetrisk balans">
     <img src="../image/analysis/analysis_03_arminlaschet_example.png?h=220" class="report-analysis-inline-img" alt="Asymmetrisk balans">
 </a>
 
