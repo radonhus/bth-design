@@ -93,7 +93,7 @@ KmomId: reportindex
 <div class="kmom-box project">
 <div class="opacity">
     <div class="kmom-box-title-wrap">
-        <h3>Kursmoment 07-10</h3>
+        <h3>Projekt</h3>
         <p>– Projekt och examination</p>
     </div>
     <div class="kmom-box-link-wrap">

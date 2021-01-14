@@ -47,3 +47,17 @@ KmomId: analysisindex
     </div>
 </div>
 </div>
+
+<div class="kmom-box project">
+<div class="opacity">
+    <div class="kmom-box-title-wrap">
+        <h3>Projekt</h3>
+        <p>– Analys: Laddningstider och användbarhet</p>
+    </div>
+    <div class="kmom-box-link-wrap">
+        <div class="link-box">
+            <a class="link-arrow" href="analysis/11_design-och-webbplatser" title="Laddningstider och användbarhet"></a>
+        </div>
+    </div>
+</div>
+</div>
