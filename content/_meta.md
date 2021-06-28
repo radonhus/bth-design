@@ -3,7 +3,7 @@ Logo: image/nylogga-igen.png
 Tagline: – Studentwebbplats, Teknisk webbdesign och användbarhet, BTH
 Social:
     - title: Sidans github-repo (i ny flik)
-      url: https://github.com/radonhus/bth-design
+      url: https://github.com/xlsson/bth-design
       icon: D
       target: _blank
     - title: Mörkt/ljust tema
